@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Test 채연 hanyoung'),
+      home: const MyHomePage(title: 'Git Conflict Test'),
     );
   }
 }
