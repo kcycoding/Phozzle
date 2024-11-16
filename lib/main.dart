@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Test'),
+      home: const MyHomePage(title: 'Flutter Demo Test hanyoung'),
     );
   }
 }
@@ -32,7 +32,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  late List<Model> _data;
+  // late List<Model> _data;
   late MapShapeSource _mapSource;
   late MapZoomPanBehavior _zoomPanBehavior;
 
@@ -52,8 +52,8 @@ class _MyHomePageState extends State<MyHomePage> {
     //   Model('Tasmania', Color.fromRGBO(99, 164, 230, 1), 'Tasmania'),
     //   Model('Australian Capital Territory', Colors.teal, 'ACT')
     // ];
-    const String wideFile = 'assets/SIDO_MAP_2022.json';
-    const String wide = "CTP_KOR_NM";
+    // const String wideFile = 'assets/SIDO_MAP_2022.json';
+    // const String wide = "CTP_KOR_NM";
 
     const String cityFile = "assets/TL_SCCO_SIG.json";
     const String cityName = "SIG_KOR_NM";
